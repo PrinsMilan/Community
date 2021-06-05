@@ -9,7 +9,6 @@ const client = new discord.Client();
 const activeSongs = new Map();
 client.commands = new discord.Collection();
 
-client.login("ODQ4MjI4OTgwNjU4Mjc0MzQ1.YLJkzA.KqDNu73x1gS1CtGdq_xLIDB9FoU");
 
 var con = mysql.createConnection({
     host: database.host,
